@@ -1,0 +1,13 @@
+prefix=C:/Coding/Gen AI/GeminiLLM/venv/Library
+exec_prefix=C:/Coding/Gen AI/GeminiLLM/venv/Library
+libdir=C:/Coding/Gen AI/GeminiLLM/venv/Library/lib
+sharedlibdir=C:/Coding/Gen AI/GeminiLLM/venv/Library/lib
+includedir=C:/Coding/Gen AI/GeminiLLM/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
